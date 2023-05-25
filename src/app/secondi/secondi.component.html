@@ -1,0 +1,22 @@
+<br>
+<h4>Secondi</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>contorno</th>
+            <th class="text-end">Prezzo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let m of Secondi">
+            <td>{{ m.id }}</td>
+            <td>{{ m.nome }}</td>
+           
+            <td class="text-end"><i>€ {{ m.prezzo }}</i></td>
+        </tr>
+    </tbody>
+</table>
+
